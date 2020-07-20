@@ -1,0 +1,14 @@
+{
+    "token": "YOUR-TOKEN-HERE",
+    "prefix": "!",
+
+    "__comment0": "These are the default values for the execution. They could be overwritten for each specific command in their file.",
+
+    "channels": ["bot-command"],
+    "cooldown": 0,
+    "playlistLimit": 3,
+    "volume": 25,
+
+    "__comment1": "More options could be found in https://www.npmjs.com/package/ytdl-core#ytdlurl-options",
+    "quality": "lowestaudio"
+}
