@@ -1,7 +1,7 @@
 {
     "name": "discord-music-bot",
     "version": "1.0.0",
-    "description": "A Discord bot to play music in voice channel",
+    "description": "A bot to put music on a Discord's voice channel",
     "main": "main.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
