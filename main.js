@@ -52,7 +52,7 @@ client.on('message', async message => {
 
     // if it isn't a valid command, it won't continue.
     if (!client.commands.has(commandName)) {
-        message.reply(`I can't find the ${commandName} command.`);
+        message.reply(`I can't find the \`${commandName}\` command.`);
         return;
     }
 
@@ -62,7 +62,7 @@ client.on('message', async message => {
     // Control if the author has the role to use the command.
     if (command.roles && message.channel.type != 'dm') {
         if (!message.member.roles.cache.some(role => command.roles.includes(role.name))) {
-            message.reply(`You don't have the rol to use ${commandName} command.`);
+            message.reply(`You don't have the rol to use \`${commandName}\` command.`);
             return;
         }
     }
@@ -86,7 +86,7 @@ client.on('message', async message => {
         if (!auxChannels.includes(message.channel.name)) {
             let reply = `The \`${command.name}\` command can only be used in `;
             auxChannels.forEach( (el) => {
-                reply += `${el}, `;
+                reply += `\`${el}\`, `;
             });
             reply = reply.slice(0, -2) + ' channel(s).';
 
