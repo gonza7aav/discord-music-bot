@@ -3,8 +3,7 @@ module.exports = {
     channelType: ['text'],
 
     async execute(message, args, musicPlayer) {
-        // ??? Search how to know where is the bot.
-        if (musicPlayer.connection) return message.reply(`I'm already in ${message.client.voiceStateUpdate.channel.name}.`);
+        if (musicPlayer.connection) return message.reply(`I'm already in \`${musicPlayer.connection.channel.name}\`.`);
 
         // Try to join the sender's voice channel if they are in one.
         if (message.member.voice.channel) {
