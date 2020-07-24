@@ -53,24 +53,24 @@ module.exports = {
         if (command.channels) {
             aux = '**Channel:** ';
             command.channels.forEach( (el) => {
-                aux += `${el}, `;
+                aux += `\`${el}\`, `;
             });
             data.push(aux.slice(0, -2));
         } else {
             aux = '**Channel:** ';
             config.channels.forEach( (el) => {
-                aux += `${el}, `;
+                aux += `\`${el}\`, `;
             });
             data.push(aux.slice(0, -2));
         }
         if (command.roles) {
             aux = '**Rol:** ';
             command.roles.forEach( (el) => {
-                aux += `${el}, `;
+                aux += `\`${el}\`, `;
             });
             data.push(aux.slice(0, -2));
         } else {
-            data.push('**Rol:** @everyone');
+            data.push('**Rol:** `@everyone`');
         }
         data.push(`**Cooldown:** ${command.cooldown || config.cooldown} second(s)`);
 
