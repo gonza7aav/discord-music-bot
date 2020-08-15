@@ -14,5 +14,5 @@ module.exports = {
     usage: '<number>',
     roles: ['admin'],
 
-    cooldown: 300,
+    cooldown: 0,
 };

@@ -6,7 +6,7 @@
 
     "channels": ["bot-command"],
     "cooldown": 0,
-    "playlistLimit": 3,
+    "playlistLimit": 10,
     "volume": 25,
 
     "__comment1": "More options could be found in https://www.npmjs.com/package/ytdl-core#ytdlurl-options",
