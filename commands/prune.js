@@ -13,6 +13,4 @@ module.exports = {
     description: 'Prune a number of messages',
     usage: '<number>',
     roles: ['admin'],
-
-    cooldown: 0,
 };
