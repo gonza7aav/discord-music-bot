@@ -11,7 +11,6 @@ module.exports = {
             .then( (connection) => {
                 // A little gift for you.
                 musicPlayer.connection = connection;
-                musicPlayer.dispatcher = musicPlayer.connection.play('./GLaDOS.mp3', { volume: musicPlayer.volume });
             })
             .catch( (error) => {
                 console.error(`Could not join to ${message.member.voice.channel}.\n`, error);
