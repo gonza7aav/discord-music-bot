@@ -1,7 +1,7 @@
 {
   "name": "discord-music-bot",
   "version": "1.0.0",
-  "description": "A bot to put music on a Discord's voice channel",
+  "description": "A bot to play music in a Discord's voice channel",
   "homepage": "https://github.com/gonza7aav/discord-music-bot",
   "bugs": {
     "url": "https://github.com/gonza7aav/discord-music-bot/issues"
