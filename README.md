@@ -35,7 +35,7 @@ It still has some things to work out. Such as searching for videos through messa
 
 If you have installed _Git_, you can clone it with:
 
-```shell
+```console
 git clone https://github.com/gonza7aav/discord-music-bot.git
 ```
 
@@ -43,7 +43,7 @@ git clone https://github.com/gonza7aav/discord-music-bot.git
 
 1. From the repository's folder, you need to run:
 
-```shell
+```console
 npm intall
 ```
 
@@ -59,7 +59,7 @@ If you want to develop your commands, I'll recommend using the `help.js` file wh
 
 To start the bot, run:
 
-```shell
+```console
 npm start
 ```
 
