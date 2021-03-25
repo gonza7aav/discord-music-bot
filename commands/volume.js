@@ -1,6 +1,6 @@
 module.exports = {
-  name: 'volume',
-  channelType: ['text'],
+  name: "volume",
+  channelType: ["text"],
   args: true,
 
   execute(message, args, musicPlayer) {
@@ -10,10 +10,10 @@ module.exports = {
       musicPlayer.volume = percentage / 100;
       musicPlayer.dispatcher.setVolume(musicPlayer.volume);
     } else {
-      message.reply('Select a valid percentage [0% - 100%].');
+      message.reply("Select a valid percentage [0% - 100%].");
     }
   },
 
-  description: 'Change the volume of the music.',
-  usage: '<percentage>'
+  description: "Change the volume of the music.",
+  usage: "<percentage>",
 };
