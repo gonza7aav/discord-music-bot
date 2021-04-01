@@ -31,27 +31,29 @@ It still has some things to work out. Such as searching for videos through messa
 
 - _[Node.js](https://nodejs.org/en/)_ with _npm_ (short for _Node Package Manager_)
 - Token from [Discord developer portal](https://discord.com/developers/applications)
-- Download the repository
-
-If you have installed _Git_, you can clone it with:
-
-```
-git clone https://github.com/gonza7aav/discord-music-bot.git
-```
+- _[Git](https://git-scm.com/)_ (optional)
 
 ## 🛠️ Install
 
-1. From the repository's folder, you need to run:
+1. Download this repository
 
-```
-npm intall
-```
+   If you have _Git_, you can clone it with:
 
-2. Place your token in the `config.json` file
+   ```console
+   git clone https://github.com/gonza7aav/discord-music-bot.git
+   ```
 
-3. (Optional) Customize the default values as desired
+2. Install the dependencies with:
 
-4. (Optional) Customize the values of each command
+   ```console
+   npm intall
+   ```
+
+3. Place your token in the `config.json` file
+
+4. (Optional) Customize the default values as desired
+
+5. (Optional) Customize the values of each command
 
 If you want to develop your commands, I'll recommend using the `help.js` file which is completely commented.
 
@@ -59,7 +61,7 @@ If you want to develop your commands, I'll recommend using the `help.js` file wh
 
 To start the bot, run:
 
-```
+```console
 npm start
 ```
 
